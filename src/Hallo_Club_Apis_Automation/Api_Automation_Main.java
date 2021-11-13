@@ -29,6 +29,7 @@ public class Api_Automation_Main extends RegisterApi{
 		JsonPath js2=new JsonPath(Getuser);
 		String Id =js2.getString("data.id");
 		System.out.println(Id);
+		System.out.println(Id);
 		Assert.assertEquals(Getuser, Id);
 		
 		
